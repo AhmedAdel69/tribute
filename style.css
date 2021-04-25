@@ -88,7 +88,11 @@ p {
 #img-div {
   width: 80vw;
   margin: 0 auto;
-  background: var(--white);
+  background: linear-gradient(
+    56deg,
+    rgba(197, 6, 6, 0.199),
+    rgba(0, 0, 0, 0.118)
+  );
   border-radius: 0.5rem;
   padding-bottom: 2rem;
   -webkit-border-radius: 0.5rem;
@@ -109,6 +113,7 @@ p {
   text-align: center;
   text-transform: capitalize;
   margin-top: 2rem;
+  font-size: 1.1rem;
 }
 ul {
   background: var(--black);
